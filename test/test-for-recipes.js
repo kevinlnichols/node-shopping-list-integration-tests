@@ -62,7 +62,7 @@ describe('Recipe List', function() {
             .then(function(res) {
                 return chai.request(app)
                     .delete(`/recipes/${res.body[0].id}`)
-            });
+            })
             .then(function(res) {
                 res.should.have.status(204);
             });
