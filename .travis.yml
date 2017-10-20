@@ -1,9 +1,4 @@
 language: node_js
 node_js: node
-deploy:
-  provider: heroku
-  api_key:
-    secure: vIyYzwcIHjnlQdm06d4JFTNpdY8ef87RVhFeEKTVThsycebk5jwjy4j+QgJ8M/DYGyLuerDvfV7bDSleS1Fb/C0/JjtVQqxV+JqinD2HdL2kNQBZFG6zjjvzItfudjU1n4OXvJZNtIWECo4/vlPVsI0oJ19uGHeC0rAdBiypFc+bXWKoibj5hcWjwajfsKQWi7T14gjOglRUnNMBhlZpxfwd2wyYYeI2V2q2ypMy4GV1VSWKSFjv/8UyXPm0BkuHyOO9Z5ABLwvd8F7JEqnxjijWFvj3ekwY/zpHCnWOfXJ5rTHKZJtFSOXCwGWUCNU3MYrnlaIsnqZfDrNexQXMye06GKrMdKGOV/xvR1QFmTsVaalUgCfbhavb1gPlaiwhJS2pKb/LAhRXnRFSCbrnO4kgUC4iGC4lM8U2/iCyqysahzJV7y4VxJ/QOnrEZZ632vHlywdliJcIayFL9fK22tX/N8RjNg/x8zyNX1c1oQ+Ubr86IvQqe+P8JR/RsaYsYlD+YXijZAH5HJbTQt6sIr363ibH57ZUV3koTvalBzoC5tBoi/gZMrPwnRKp9OmWXJC3YWGQ/wOIogqb3GQVvmmEmJ594bifA7L3A2iFlL2CcEaIxKQHyvHuYnjhRNr6aCVna0VmKwchN6pJrNhd7G4dDsfERvBi+leIzQ85Q7g=
-  app: mysterious-bayou-36605
-  on:
-    repo: kevinlnichols/node-shopping-list-integration-tests
+
+  
