@@ -1,4 +1,9 @@
 language: node_js
 node_js: node
-
-  
+deploy:
+  provider: heroku
+  api_key:
+    secure: wpsetpRdBCx9aW0KWSnqSQpOx/iwh5tC9Zgz6oHcXi/5fucj4x6fcQfAPTb2ZtKye1NtET8DjUQ8Z3RBVQlpA/lXlgU6qZCB7Ys4sg3yFdnGuQXNBYPLEBICqD3f6zsQxi0pz1eL5jGF/LIiqDDJ+X9uxIhmmoOcN/sqxvNWGs38ueLtbEuiqS7rR3WWUS07vLCM6dvRYXpYDj0ApF+3Yv13zj8niYWZtfa0KDww76MxPjr76iZfVgXzWCMIVO7t6/O3nxK1MHvyoRftMYBQwFIrO9VikscEDE/rPkn6UutJ5zJyZmizLJLgqYJDbWMgCQWnHOO+jc7SDYGAHCl2jd0GdRPJSOqM0UOgLBXm7/pcKgrgpmACI2+OhLNmWmpBZouJ0izKiARUZwvFzazq9L2SYKQagEPJVIXDkPLGi4GDhx0Hy0TSYp1arskXHa92IKfxhSlEbMFzaPUJ2UCqCkgTPFzIPGN9oGdsqUTohiBL1Y3kPyVB/xDArnXshMumi7U/ph3xS6MeFq/NNBsScpDfW5WGPY/fKE9a2AnfCZYZ+kwWUv9bpKgUC9lzXncrLLdWIqOK34s/bhFAcOxT1VXQY0GfTYO+ugwbzUdMmA5OmyLAhFs9ae8g2JwXXzy9vbj0g6SC4SF2pA0wPZFNSg09qMsb4CRICES7EUX8w8c=
+  app: limitless-ridge-68751
+  on:
+    repo: kevinlnichols/node-shopping-list-integration-tests
